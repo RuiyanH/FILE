@@ -1,0 +1,118 @@
+\documentclass[a4paper,10pt]{extarticle}
+
+%BEGIN_FOLD-Preamble
+%基本packages
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{extsizes}
+\usepackage{mathrsfs}
+\usepackage{colonequals}
+\usepackage{enumerate}
+\usepackage[amssymb]{SIunits}
+\usepackage{tensor}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{float}
+\usepackage{color}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{enumitem}
+\usepackage{changepage}%\begin{adjustwidth}{左边缩进距离}{右边缩进距离}\end{adjustwidth}
+\usepackage{mathtools}
+\usepackage{multicol}
+\usepackage{caption}
+\usepackage{rotating}
+
+
+%align与文字间距调整
+\usepackage{etoolbox}
+\newcommand{\smalldisplayskips}{%
+	\setlength{\abovedisplayskip}{5pt}%
+	\setlength{\belowdisplayskip}{5pt}%
+	\setlength{\abovedisplayshortskip}{3pt}%
+	\setlength{\belowdisplayshortskip}{3pt}}
+\appto{\normalsize}{\smalldisplayskips}
+\appto{\small}{\smalldisplayskips}
+\appto{\footnotesize}{\smalldisplayskips}
+
+%自动url换行，保持超链接有效
+\usepackage{cite}
+\usepackage[hyphens]{url}
+\def\UrlBreaks{\do/\do\_\do-}%可以在/，\_以及-处换行
+\usepackage{breakurl}
+\usepackage[hidelinks,hyperfootnotes=false]{hyperref}
+\usepackage[hang, flushmargin]{footmisc}
+\usepackage{footnotebackref}
+
+
+%tikz packages
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{intersections}
+\usetikzlibrary{arrows}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{trees}
+\usetikzlibrary{quotes}
+\usetikzlibrary{angles}
+\usetikzlibrary{spy}
+
+%字体设置
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%字体
+%\usepackage{mathptmx} %Times
+%\usepackage{helvet} %Helvetica
+%\usepackage{courier} %Courier
+%\usepackage{lmodern} %Latin Modern Dunhill
+%Calibri %%%需用XeLaTeX排版
+%\usepackage{fontspec}
+%\setmainfont{Calibri}
+
+
+%页边距
+\usepackage{geometry}
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+
+%更改纸张大小
+%\usepackage{geometry}
+%\geometry{paperheight=18cm,paperwidth=20cm}
+%\geometry{left=1.8cm,right=1.8cm,top=2cm,bottom=2cm}
+
+%行间距
+\usepackage{setspace}
+\renewcommand{\baselinestretch}{1}
+%\setlength{\baselineskip}{20pt}
+
+%单双引号改正
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+
+%item 缩进设置
+%\setlist[itemize,1]{leftmargin=\dimexpr .5cm}
+
+%添加首行缩进，两个字符
+\usepackage{indentfirst}
+\setlength{\parindent}{2em}
+
+%背景设置
+%\usepackage[pages=some]{background}
+%\backgroundsetup{scale=1,color=black,opacity=.3,angle=0,contents={\includegraphics[width=20cm,height=18cm]{pic/bkgd.jpg}}}
+
+%带圈数字
+\newcommand*{\circled}[1]{\lower.7ex\hbox{\tikz\draw (0pt, 0pt)%
+		circle (.5em) node {\makebox[1em][c]{\small #1}};}}
+
+%数学度数符号快捷命令
+\newcommand{\du}{^\circ}
+
+
+%表格内强制换行\makecell{xxxx\\xxxx}
+\usepackage{makecell}
+
+%END_FOLD
+
