@@ -1,8 +1,0 @@
-\contentsline {section}{\numberline {1}Epigraph}{3}% 
-\contentsline {subsection}{\numberline {1.1}Title}{3}% 
-\contentsline {section}{\numberline {2}The Sheik}{3}% 
-\contentsline {section}{\numberline {3}The Honeymoon}{3}% 
-\contentsline {section}{\numberline {4}Prisoner of War}{3}% 
-\contentsline {section}{\numberline {5}The Noose Tightens}{3}% 
-\contentsline {section}{\numberline {6}Mouse Holes}{3}% 
-\contentsline {section}{\numberline {7}Mouse Trap}{3}% 
